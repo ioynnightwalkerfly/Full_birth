@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Play Music</title>
+</head>
+<body>
+    <h1>Welcome to My Music Page!</h1>
+    <p>เพลงจะเล่นอัตโนมัติเมื่อโหลดหน้านี้</p>
+    
+    <!-- Audio Element -->
+    <audio id="myAudio" src="birthday.mp3" autoplay></audio>
+
+    <script>
+        // ตรวจสอบว่าบราวเซอร์อนุญาตให้เล่นเพลงอัตโนมัติหรือไม่
+        const audio = document.getElementById("myAudio");
+        audio.play().catch(error => {
+            console.log("Auto-play is not allowed, please click to play:", error);
+            // ถ้าไม่สามารถเล่นอัตโนมัติได้ ให้สร้างปุ่มสำหรับผู้ใช้กด
+            const button = document.createElement("button");
+            button.innerText = "Play Music";
+            button.onclick = () => {
+                audio.play();
+                button.style.display = "none"; // ซ่อนปุ่มหลังจากเล่นเพลง
+            };
+            document.body.appendChild(button);
+        });
+    </script>
+</body>
+</html>

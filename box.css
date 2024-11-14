@@ -1,0 +1,74 @@
+/* For better visibility of the example */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Message box starts here */
+.message0container {
+  position: absolute;
+  top: 30px; /* เพิ่มค่าของ top เพื่อย้ายไปข้างบน */
+}
+
+.message0container .arrow {
+  width: 12px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  top: 6px;
+  right: -1px;
+}
+
+.message0container .arrow .outer {
+  width: 0;
+  height: 0;
+  border-right: 20px solid #000000;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.message0container .arrow .inner {
+  width: 0;
+  height: 0;
+  border-right: 20px solid #ffffff;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+
+.message0container .message-body {
+  float: left;
+  width: 300px;
+  height: auto;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 6px 8px;
+  border-radius: 5px;
+}
+
+.message0container .message-body p {
+  margin: 0;
+}
+
+.message0container .message-body {
+  animation: showMessage 1s ease forwards;
+  opacity: 0;
+  animation-delay: 5.5s;
+}
+
+@keyframes showMessage {
+  to {
+    opacity: 1;
+  }
+}

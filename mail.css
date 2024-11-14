@@ -1,0 +1,42 @@
+@-webkit-keyframes oscillation{from{-webkit-transform:rotate(-9deg)}to{-webkit-transform:rotate(9deg)}}
+@-moz-keyframes oscillation{from{-moz-transform:rotate(-9deg)}to{-moz-transform:rotate(9deg)}}
+.oscillate{-webkit-transform-origin:50% -40px;-moz-transform-origin:50% -40px;-webkit-animation:oscillation 1s ease-in-out infinite alternate;-moz-animation:oscillation 1s ease-in-out infinite alternate;background:url(http://permitsandvisas.files.wordpress.com/2014/08/stick.png) no-repeat;width:21px;height:110px;z-index:0;position:absolute;top:0;right:115px}#bg{position:absolute;left:0px;top:0px;height:100%;width:100%;background:#fff}.contact{position:absolute;left:50%;top:50%;margin-left:45px;margin-top: -125px;height:250px;background:rgba(0, 0, 0);border-radius:2px;-ms-border-radius:2px;-moz-border-radius:2px;-o-border-radius:2px;-webkit-border-radius:2px}.contact
+.envelope{background:none repeat scroll 0 0 #f9f9f9;height:73px;left:62%;margin-left: -88px;margin-top: -50px;position:absolute;top:76%;transition:margin-top 300ms ease 0s;width:99px}.contact:hover
+.envelope{transition-delay:150ms;-ms-transition-delay:150ms;-moz-transition-delay:150ms;-o-transition-delay:150ms;margin-top: -20px}.contact .envelope
+.top{position:absolute;top:0px;left: -34px;width:134%;height:58px;z-index:30;overflow:hidden;transform-origin:top;-ms-transform-origin:top;-moz-transform-origin:top;-o-transform-origin:top;-webkit-transform-origin:top;transition:transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;-ms-transition: -ms-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;-moz-transition: -moz-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;-o-transition: -o-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;-webkit-transition: -webkit-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms}.contact:hover .envelope
+.top{transition:transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;-ms-transition: -ms-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;-moz-transition: -moz-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;-o-transition: -o-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;-webkit-transition: -webkit-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;height:10px;top: -60px;transform:rotateX(180deg);-ms-transform:rotateX(180deg);-moz-transform:rotateX(180deg);-o-transform:rotateX(180deg);-webkit-transform:rotateX(180deg)}.contact .envelope
+.outer{position:absolute;bottom:0px;left:0px;border-left:86px solid transparent;border-right:82px solid transparent;border-top:96px solid #EEE}.contact .envelope .outer
+.inner{position:absolute;left: -58px;top: -73px;border-left:58px solid transparent;border-right:56px solid transparent;border-top:67px solid #ef8c14}.contact .envelope
+.bottom{position:absolute;z-index:20;bottom:0px;left: -1px;border-left:52px solid transparent;border-right:48px solid transparent;border-bottom:30px solid #ef8c14}.contact .envelope
+.left{position:absolute;z-index:20;top:0px;left:0px;border-left:52px solid #ef8c14;border-top:40px solid transparent;border-bottom:29px solid transparent}.contact .envelope
+.right{position:absolute;z-index:20;top:0px;right:0;border-right:48px solid #ef8c14;border-top:40px solid transparent;border-bottom:30px solid transparent}.contact .envelope
+.cover{position:absolute;z-index:15;bottom:0px;left:0px;height:33%;width:100%;background:#EEE}.contact .envelope
+.paper{position:absolute;height:69px;padding-top:4px;width:100%;top:0px;left:0px;background:#fff;z-index:10;transition:margin-top 300ms 0ms;-ms-transition:margin-top 300ms 0ms;-moz-transition:margin-top 300ms 0ms;-o-transition:margin-top 300ms 0ms;-webkit-transition:margin-top 300ms 0ms}.contact:hover .envelope
+.paper{margin-top: -60px;transition:margin-top 300ms 150ms;-ms-transition:margin-top 300ms 150ms;-moz-transition:margin-top 300ms 150ms;-o-transition:margin-top 300ms 150ms;-webkit-transition:margin-top 300ms 150ms}.contact .envelope .paper
+a{position:relative;display:block;font-size:14px;margin:5px;margin-bottom:0px;text-align:center;color:#333;text-decoration:none}.contact .envelope .paper a.call
+.i{position:absolute;top:2px;left:20px;display:inline-block;width:3px;height:5px;border-width:5px 0 5px 2px;border-style:solid;border-color:#555;background:transparent;transform:rotate(-30deg);-ms-transform:rotate(-30deg);-moz-transform:rotate(-30deg);-o-transform:rotate(-30deg);-webkit-transform:rotate(-30deg);border-top-left-radius:3px 5px;border-bottom-left-radius:3px 5px;-moz-border-radius-topleft:3px 5px;-moz-border-radius-bottomleft:3px 5px;-webkit-border-top-left-radius:3px 5px;-webkit-border-bottom-left-radius:3px 5px;transition:border-color 300ms;-ms-transition:border-color 300ms;-moz-transition:border-color 300ms;-o-transition:border-color 300ms;-webkit-transition:border-color 300ms}.contact .envelope .paper
+a{color:#333;transition:color 200ms;-ms-transition:color 200ms;-moz-transition:color 200ms;-o-transition:color 200ms;-webkit-transition:color 200ms}.contact .envelope .paper a:hover{}.contact .envelope .paper a.call:hover
+.i{border-color:#DDD}.contact .envelope .paper a.mail
+.i{position:absolute;top:0px;left:17px;display:inline-block;font-size:13px;font-weight:bold}}#layerslider{padding:6px;background:#fdfdfd;border:1px
+solid rgba(0, 0, 0, 0.08);-webkit-box-shadow:0px 0px 1px 1px #efefef;-o-box-shadow:0px 0px 1px 1px #efefef;-moz-box-shadow:0px 0px 1px 1px #efefef;box-shadow:0px 0px 1px 1px #efefef;border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px}.ls-layer{display:none}.ls-active,.ls-animating{display:block}.ls-layer>*{position:absolute;left:0px;top:0px}.ls-layer .ls-bg{left:50%;top:50%}.ls-nav{text-align:center}.ls-nav
+a{display:inline-block}img,a,*:focus{outline:none}a{text-decoration:none}.c{text-align:center}.l{text-align:left}.r{text-align:right}.j{text-align:justify}.b{font-weight:bold}.i{font-style:italic}span.hl{font-weight:bold;color:#444}.fl{float:left}.fr{float:right}.active, .active:hover, .active *, .active *:hover{cursor:default}h1,h2,h3,h4,h5{font-weight:normal}.clear, form
+br{display:block;clear:both;float:none;line-height:0px;font-size:0px}.notext{line-height:0px;font-size:0px}.noheight{height:0px;line-height:0px;font-size:0px;overflow:hidden}.hidden{display:none}.forcew{display:inline-block}#dim{min-width:926px;overflow:hidden}.sep{width:820px;height:4px;margin:50px
+0px 0px -15px;background:url(/wp-content/themes/obbserv/images/static.png) 0px -206px}#layerslider,#layerslider2{width:926px;height:480px;margin:0px
+auto}#leaf1{left:110px;top: -110px}#leaf2{left: -20px;top:230px}#leaf3{left:500px;top: -200px}#clouds{left: -100px;top: -100px}#earth{left:850px;top: -67px}#l5text1,#l5text2,#l5text3{width:120px;padding:5px;text-align:center;color:#eee;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;background-color:#000;background-color:rgba(255,255,255,.07);font-size:17px;-webkit-transform:rotate(-30deg);-moz-transform:rotate(-30deg)}#l5text1{left:250px;top:120px}#l5text2{left:450px;top:150px}#l5text3{left:620px;top:150px}div.wpcf7{margin:0;padding:0}div.wpcf7-response-output{z-index:999;background:none repeat scroll 0 0 white;color:#EF8D12;position:absolute;top:30%}div.wpcf7-mail-sent-ok{color:#398f14;position:relative}div.wpcf7-mail-sent-ng{color:#EF8D12;position:relative}div.wpcf7-spam-blocked{border:2px
+solid #ffa500}div.wpcf7-validation-errors{}span.wpcf7-form-control-wrap{position:relative}span.wpcf7-not-valid-tip{position:absolute;top: -20%;left:5%;z-index:100;background:#EF8D12;border:3px
+solid #fff;font-size:12px;border-radius:5px;width:165px;padding:3px;text-align:left;opacity:.85;color:white}
+
+
+
+
+/* Animation for delayed envelope appearance */
+.oscillate {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 7s; /* Adjust to match the flower bloom animation duration */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
